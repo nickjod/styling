@@ -183,3 +183,35 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+/* ======================================
+   Responsive Web Design
+====================================== */
+@media (max-width: 768px) {
+
+    /* Stack navigation links vertically */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* Expand content width on mobile */
+    main {
+        width: 95%;
+        padding: 15px;
+    }
+
+    /* Form container takes full width */
+    .form-container {
+        width: 100%;
+    }
+
+    /* Make table scrollable horizontally */
+    .data-table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
